@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Word Searcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Word Searcher</h1>
+    <label for="pattern">Enter a regex pattern below:</label>
+    <input type="text" id="pattern" placeholder="Type pattern and press Enter" autofocus>
+    <button id="search">Search</button>
+    <button id="copy">Copy to Clipboard</button>
+    <p id="result-count"></p>
+    <ul id="word-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
