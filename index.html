@@ -1,21 +1,53 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Word Searcher</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Database Search</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Word Searcher</h1>
-    <label for="pattern">Enter a regex pattern below:</label>
-    <input type="text" id="pattern" placeholder="Type pattern and press Enter" autofocus>
-    <button id="search">Search</button>
-    <button id="copy">Copy to Clipboard</button>
-    <p id="result-count"></p>
-    <ul id="word-list"></ul>
-  </div>
-  <script src="script.js"></script>
+    <div class="container">
+        <!-- Left Panel for Filters -->
+        <aside class="filters-panel">
+            <h2>Filters</h2>
+            <input type="text" id="search-box" placeholder="Search by name (regex)...">
+            
+            <div class="filter-options">
+                <label><input type="checkbox" id="full-search-check"> Disregard Prefix</label>
+                <label><input type="checkbox" id="delimiter-check" checked> Add Delimiter</label>
+                <label><input type="checkbox" id="show-ignored-check"> Show Ignored</label>
+                <label><input type="checkbox" id="show-used-check"> Show Used</label>
+            </div>
+
+            <hr>
+            
+            <div class="fandom-controls">
+                <h3>Fandoms</h3>
+                <button id="toggle-fandoms-btn">Toggle All</button>
+            </div>
+            <div id="fandom-list" class="fandom-list">
+                <!-- Fandom checkboxes will be dynamically inserted here -->
+            </div>
+        </aside>
+
+        <!-- Right Panel for Results -->
+        <main class="results-panel">
+            <div id="status-message" class="status-message">Loading character data...</div>
+            <div id="results-grid" class="results-grid">
+                <!-- Character cards will be dynamically inserted here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for showing larger thumbnail -->
+    <div id="image-modal" class="modal">
+        <span class="modal-close">×</span>
+        <img class="modal-content" id="modal-image">
+        <div id="modal-caption"></div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
