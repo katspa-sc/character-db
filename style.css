@@ -33,6 +33,8 @@ body {
   border-radius: 8px;
   height: calc(100vh - 40px);
   overflow-y: auto;
+  position: sticky;
+  top: 20px; /* The distance from the top of the screen where it will stick */
 }
 
 .filters-panel h2, .filters-panel h3 {
@@ -103,48 +105,71 @@ body {
   gap: 15px;
 }
 
+/* Updated card style */
 .char-card {
+  position: relative; /* Essential for positioning the overlay */
   background-color: var(--widget-bg);
   border: 1px solid var(--border-color);
-  border-radius: 8px;
-  text-align: center;
-  padding: 10px;
+  border-radius: 6px; /* A more subtle corner radius */
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
-  position: relative;
-  overflow: hidden;
+  overflow: hidden; /* Keeps the image corners rounded */
+  display: flex; /* Helps align content */
+  aspect-ratio: 3 / 4; /* Ensures all cards have a uniform shape */
 }
 
-.char-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-.char-card.is-used { background-color: var(--used-color); }
-.char-card.is-ignored { background-color: var(--ignored-color); }
-.char-card.is-ignored .char-name, .char-card.is-ignored .char-fandom { color: var(--ignored-text); }
-.char-card.is-used.is-ignored { background-color: var(--ignored-used-color); }
-
-
+/* Make the thumbnail fill the entire card */
 .char-thumbnail {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid var(--border-color);
-  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crucial: scales image to fill space without stretching */
+  display: block; /* Removes any extra space below the image */
 }
 
+/* The new info bar overlay */
+.char-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75); /* Semi-transparent black bar */
+  color: var(--text-color);
+  padding: 8px 10px;
+  box-sizing: border-box;
+  /* Optional: add a subtle transition */
+  transition: background 0.2s ease;
+}
+
+/* The card text is now inside the info bar */
 .char-name {
   font-weight: bold;
-  font-size: 1em;
-  margin-bottom: 5px;
-  word-wrap: break-word;
+  font-size: 0.95em;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adds "..." if name is too long */
 }
 
 .char-fandom {
   font-size: 0.8em;
-  color: #b0b0b0;
+  color: #c0c0c0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* --- You can also add a hover effect for the info bar --- */
+.char-card:hover .char-info {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* --- You might need to adjust the grid slightly if you haven't already --- */
+.results-grid {
+  display: grid;
+  /* Let's use a slightly larger minmax for better spacing */
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
 }
 
 /* Action buttons on the card */
@@ -157,20 +182,89 @@ body {
   gap: 4px;
 }
 
+/* Base style for BOTH buttons */
 .action-btn {
-  background: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 8px; /* A little padding from the edge */
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  font-weight: bold;
   color: white;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  font-size: 14px;
   cursor: pointer;
-  line-height: 24px;
-}
-.action-btn:hover { background: rgba(0,0,0,0.8); }
-.action-btn.active { background: #1e90ff; }
+  box-shadow: 0 1px 4px rgba(0,0,0,0.6);
+  
+  /* Use flexbox for perfect centering of the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  /* Smooth transitions for hover and active states */
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.action-btn:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Specific styling for the IGNORE button */
+.ignore-btn {
+  left: 8px; /* Position on the top-left */
+  /* A gradient from a semi-transparent red to dark grey */
+  background: linear-gradient(45deg, rgba(180, 50, 50, 0.75), rgba(40, 40, 40, 0.7));
+}
+
+/* Style for when the IGNORE button is ACTIVE */
+.ignore-btn.active {
+  /* A more vibrant, opaque red gradient */
+  background: linear-gradient(45deg, rgb(220, 53, 69), rgb(119, 29, 39));
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Specific styling for the USED button */
+.used-btn {
+  right: 8px; /* Position on the top-right */
+  /* A gradient from a semi-transparent blue to dark grey */
+  background: linear-gradient(135deg, rgba(40, 90, 180, 0.75), rgba(40, 40, 40, 0.7));
+}
+
+/* Style for when the USED button is ACTIVE */
+.used-btn.active {
+  /* A more vibrant, opaque blue gradient */
+  background: linear-gradient(135deg, rgb(13, 110, 253), rgb(15, 63, 143));
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.status-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px; /* Match the parent card's border-radius */
+  background: transparent; /* Invisible by default */
+  pointer-events: none; /* Allows clicks to go through to the image/card */
+  transition: background 0.3s ease; /* Smooth fade in/out */
+}
+
+/* Style for when the character is IGNORED */
+.char-card.is-ignored .status-overlay {
+  background: rgba(220, 53, 69, 0.45); /* 45% opaque red */
+}
+
+/* Style for when the character is USED */
+.char-card.is-used .status-overlay {
+  background: rgba(13, 110, 253, 0.45); /* 45% opaque blue */
+}
+
+/* Style for when the character is BOTH IGNORED AND USED */
+.char-card.is-ignored.is-used .status-overlay {
+  /* A purple gradient to indicate both states */
+  background: linear-gradient(45deg, rgba(220, 53, 69, 0.4), rgba(13, 110, 253, 0.4));
+}
 
 /* --- Image Modal --- */
 .modal {

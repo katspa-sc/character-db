@@ -11,7 +11,6 @@ const FANDOM_SORT_ORDER = [
   "Tekken",
   "Wiedźmin",
   "Gothic",
-  // Add any other fandoms you want to prioritize here...
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -166,36 +165,43 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // --- Rendering ---
   function renderResults(characters) {
-      elements.resultsGrid.innerHTML = ''; // Clear previous results
-      if (characters.length === 0) {
-          elements.statusMessage.textContent = 'No results found.';
-          return;
-      }
-      
-      elements.statusMessage.textContent = `${characters.length} result(s) found.`;
-      
-      characters.forEach(char => {
-          const isIgnored = stateManager.isIgnored(char.hash);
-          const isUsed = stateManager.isUsed(char.hash);
+    elements.resultsGrid.innerHTML = ''; // Clear previous results
+    if (characters.length === 0) {
+        elements.statusMessage.textContent = 'No results found.';
+        return;
+    }
+    
+    elements.statusMessage.textContent = `${characters.length} result(s) found.`;
+    
+    characters.forEach(char => {
+        const isIgnored = stateManager.isIgnored(char.hash);
+        const isUsed = stateManager.isUsed(char.hash);
 
-          const card = document.createElement('div');
-          card.className = 'char-card';
-          card.dataset.hash = char.hash;
-          if (isIgnored) card.classList.add('is-ignored');
-          if (isUsed) card.classList.add('is-used');
+        const card = document.createElement('div');
+        card.className = 'char-card';
+        card.dataset.hash = char.hash;
+        if (isIgnored) card.classList.add('is-ignored');
+        if (isUsed) card.classList.add('is-used');
 
-          card.innerHTML = `
-              <div class="card-actions">
-                  <button class="action-btn ignore-btn ${isIgnored ? 'active' : ''}" title="Toggle Ignore (I)">I</button>
-                  <button class="action-btn used-btn ${isUsed ? 'active' : ''}" title="Toggle Used (U)">U</button>
-              </div>
-              <img src="thumbnails/${char.thumbnail || 'placeholder.png'}" alt="${char.name}" class="char-thumbnail" loading="lazy">
+        // The HTML is now much simpler, with no fallbacks.
+        card.innerHTML = `
+          <!-- A single img tag pointing directly to the webp file -->
+          <img src="thumbnails/${char.thumbnail}" alt="${char.name}" class="char-thumbnail" loading="lazy">
+
+          <!-- The overlay for used/ignored status -->
+          <div class="status-overlay"></div>
+          
+          <div class="char-info">
               <div class="char-name">${char.name}</div>
               <div class="char-fandom">${char.fandom_display}</div>
-          `;
-          elements.resultsGrid.appendChild(card);
-      });
-  }
+          </div>
+
+          <button class="action-btn ignore-btn ${isIgnored ? 'active' : ''}" title="Toggle Ignore (I)">I</button>
+          <button class="action-btn used-btn ${isUsed ? 'active' : ''}" title="Toggle Used (U)">U</button>
+      `;
+        elements.resultsGrid.appendChild(card);
+    });
+}
 
   // --- Event Handlers ---
   function handleFandomToggle(event) {
