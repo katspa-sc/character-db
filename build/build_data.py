@@ -74,10 +74,15 @@ FANDOMS = [
 # (e.g. a DLC/header banner outranks the character's infobox portrait). Listed
 # characters always have their thumbnail (re)downloaded from this URL, even if
 # already present, so fixes here also repair bad images baked into the data.
+# The Hollow Knight Grimm Troupe NPCs below all resolved to the shared
+# "Beta_hk_promo.png" banner instead of their portrait.
 # (name, fandom_internal): image_url
 OVERRIDES = {
     ("Divine", "hollowknight"): "https://static.wikia.nocookie.net/hollowknight/images/f/f9/Divine.png/revision/latest?cb=20190112211514",
     ("Brumm", "hollowknight"): "https://static.wikia.nocookie.net/hollowknight/images/5/50/Brumm2.png/revision/latest?cb=20171028232656",
+    ("Fluke Hermit", "hollowknight"): "https://static.wikia.nocookie.net/hollowknight/images/0/06/Fluke_Hermit.png/revision/latest?cb=20180824031611",
+    ("Grimmsteed", "hollowknight"): "https://static.wikia.nocookie.net/hollowknight/images/a/a7/Grimmsteed.png/revision/latest?cb=20180924005147",
+    ("Nymm", "hollowknight"): "https://static.wikia.nocookie.net/hollowknight/images/4/4e/Nymm.png/revision/latest?cb=20171028232732",
 }
 
 
