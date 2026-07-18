@@ -20,19 +20,53 @@ import os
 import requests
 from PIL import Image
 
-from parsers import HollowKnightParser
+from parsers import MediaWikiCategoryParser, BulbapediaParser
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_JSON = os.path.join(REPO, "data", "characters.json")
 THUMB_DIR = os.path.join(REPO, "thumbnails")
 
+_wiki = MediaWikiCategoryParser()
+
 # (source, parser, fandom_internal, fandom_display)
+# DBD Killers ("Offline") is intentionally not wired up: its roster was entered
+# offline, and scraping deadbydaylight.fandom.com would create differently-named
+# duplicates rather than update the existing entries.
 FANDOMS = [
     (
         "https://hollowknight.fandom.com/wiki/Category:NPCs_(Hollow_Knight)",
-        HollowKnightParser(),
-        "hollowknight",
-        "Hollow Knight",
+        _wiki, "hollowknight", "Hollow Knight",
+    ),
+    (
+        "https://leagueoflegends.fandom.com/wiki/Category:Playable_characters",
+        _wiki, "leagueoflegends", "League",
+    ),
+    (
+        "https://guiltygear.fandom.com/wiki/Category:Playable_characters",
+        _wiki, "guiltygear", "Guilty Gear",
+    ),
+    (
+        "https://tekken.fandom.com/wiki/Category:Characters",
+        _wiki, "tekken", "Tekken",
+    ),
+    (
+        "https://streetfighter.fandom.com/wiki/Category:Playable_Characters",
+        _wiki, "streetfighter", "Street Fighter",
+    ),
+    # Broad categories (no "playable" category exists on these wikis): these pull
+    # in some non-playable/minor characters beyond the original rosters.
+    (
+        "https://mortalkombat.fandom.com/wiki/Category:Characters",
+        _wiki, "mortalkombat", "Mortal",
+    ),
+    (
+        "https://hades.fandom.com/wiki/Category:Characters",
+        _wiki, "hades", "Hades",
+    ),
+    # Fragile: Bulbapedia is rate-limited and large (~1020 species).
+    (
+        "https://bulbapedia.bulbagarden.net/wiki/Category:Pokémon",
+        BulbapediaParser(), "bulbapedia", "Pokemon",
     ),
 ]
 

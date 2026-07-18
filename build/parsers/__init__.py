@@ -1,3 +1,3 @@
-from .hollowknight_parser import HollowKnightParser
+from .mediawiki_parser import MediaWikiCategoryParser, BulbapediaParser
 
-__all__ = ["HollowKnightParser"]
+__all__ = ["MediaWikiCategoryParser", "BulbapediaParser"]

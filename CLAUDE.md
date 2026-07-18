@@ -35,6 +35,9 @@ python build_data.py
 Re-running is idempotent: rows whose hash already exists are skipped, so it only adds new
 characters. It rewrites `data/characters.json` (minified, `ensure_ascii=False`) each run.
 
+`python dryrun.py` previews each fandom's roster (count fetched / how many are new) without
+downloading images or writing data — run it to sanity-check a category before a real build.
+
 ## Key architectural facts
 
 - **Character identity is a hash.** `hash = sha256("{name}_{fandom_internal}".lower())`. This is
@@ -47,12 +50,15 @@ characters. It rewrites `data/characters.json` (minified, `ensure_ascii=False`) 
   stored as `ignored_{hash}` and `used_{hash}` (`script.js` `stateManager`). Nothing is persisted
   server-side.
 
-- **Adding a fandom** = write a parser + register it. Subclass `BaseParser`
-  (`build/parsers/base_parser.py`), implementing `parse_characters(source) -> {name: image_url}`,
-  export it from `build/parsers/__init__.py`, then add a
-  `(source, parser(), fandom_internal, fandom_display)` tuple to `FANDOMS` in `build_data.py`.
-  Fandom wikis on Cloudflare block plain HTML scraping (403); `HollowKnightParser` shows the pattern
-  of going through the MediaWiki `api.php` instead.
+- **Adding a fandom** is usually just a config row. All wired-up fandoms are MediaWiki wikis, so
+  they share one `MediaWikiCategoryParser` (`build/parsers/mediawiki_parser.py`) — add a
+  `(category_url, parser, fandom_internal, fandom_display)` tuple to `FANDOMS` in `build_data.py`
+  pointing at the wiki's `Category:...` page. Fandom wikis on Cloudflare block plain HTML scraping
+  (403), so the parser goes through the MediaWiki API instead. It pages category members and
+  `pageimages` in **separate** queries on purpose: a combined `generator=categorymembers` +
+  `pageimages` query silently truncates categories larger than 500. A wiki only needs its own
+  parser subclass for site quirks — see `BulbapediaParser` (non-standard `/w/api.php` path, and a
+  `clean_name` hook to strip the ` (Pokémon)` title suffix).
 
 - **Search does Polish-phonetic transliteration** (`script.js` `performSearch`). The query is
   treated as regex after substitutions: space→`.*`, `h`→`(ch\|h)`, `w`→`(v\|w)`, `sz`→`(sz\|sh)`,
