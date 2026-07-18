@@ -70,6 +70,16 @@ FANDOMS = [
     ),
 ]
 
+# Manual image overrides for pages where the wiki's auto-selected image is wrong
+# (e.g. a DLC/header banner outranks the character's infobox portrait). Listed
+# characters always have their thumbnail (re)downloaded from this URL, even if
+# already present, so fixes here also repair bad images baked into the data.
+# (name, fandom_internal): image_url
+OVERRIDES = {
+    ("Divine", "hollowknight"): "https://static.wikia.nocookie.net/hollowknight/images/f/f9/Divine.png/revision/latest?cb=20190112211514",
+    ("Brumm", "hollowknight"): "https://static.wikia.nocookie.net/hollowknight/images/5/50/Brumm2.png/revision/latest?cb=20171028232656",
+}
+
 
 def character_hash(name, fandom_internal):
     return hashlib.sha256(f"{name.lower()}_{fandom_internal.lower()}".encode()).hexdigest()
@@ -84,44 +94,68 @@ def make_thumbnail(image_bytes):
         return out.getvalue()
 
 
+def save_thumbnail(image_url, h):
+    """Download image_url and write its 400px webp thumbnail as {h}.webp."""
+    try:
+        resp = requests.get(image_url, timeout=30)
+        resp.raise_for_status()
+        thumb = make_thumbnail(resp.content)
+    except Exception as exc:
+        print(f"  FAILED {h}: {exc}")
+        return False
+    with open(os.path.join(THUMB_DIR, f"{h}.webp"), "wb") as tf:
+        tf.write(thumb)
+    return True
+
+
 def main():
     with open(DATA_JSON, encoding="utf-8") as f:
         characters = json.load(f)
     existing = {c["hash"] for c in characters}
 
     added = 0
+    overridden = set()
     for source, parser, fandom_internal, fandom_display in FANDOMS:
         roster = parser.parse_characters(source)
         print(f"{fandom_display}: {len(roster)} entries fetched")
 
         for name, image_url in roster.items():
             h = character_hash(name, fandom_internal)
+            override = OVERRIDES.get((name, fandom_internal))
+            if h in existing and not override:
+                continue  # already have it and no override to apply
+
+            if not save_thumbnail(override or image_url, h):
+                continue
+
+            if override:
+                overridden.add((name, fandom_internal))
             if h in existing:
-                print(f"  skip (already present): {name}")
+                print(f"  override image: {name}")
                 continue
-
-            try:
-                resp = requests.get(image_url, timeout=30)
-                resp.raise_for_status()
-                thumb = make_thumbnail(resp.content)
-            except Exception as exc:
-                print(f"  FAILED {name}: {exc}")
-                continue
-
-            thumb_name = f"{h}.webp"
-            with open(os.path.join(THUMB_DIR, thumb_name), "wb") as tf:
-                tf.write(thumb)
 
             characters.append({
                 "hash": h,
                 "name": name,
                 "fandom_internal": fandom_internal,
                 "fandom_display": fandom_display,
-                "thumbnail": thumb_name,
+                "thumbnail": f"{h}.webp",
             })
             existing.add(h)
             added += 1
             print(f"  added: {name}")
+
+    # Overrides for characters no parser produced this run (e.g. an un-scraped
+    # fandom): refresh the existing row's thumbnail in place.
+    for (name, fandom_internal), image_url in OVERRIDES.items():
+        if (name, fandom_internal) in overridden:
+            continue
+        h = character_hash(name, fandom_internal)
+        if h not in existing:
+            print(f"  override skipped (no such character): {name}")
+            continue
+        if save_thumbnail(image_url, h):
+            print(f"  override image: {name}")
 
     with open(DATA_JSON, "w", encoding="utf-8") as f:
         json.dump(characters, f, ensure_ascii=False)
