@@ -38,6 +38,10 @@ FANDOMS = [
         _wiki, "hollowknight", "Hollow Knight",
     ),
     (
+        "https://hollowknight.fandom.com/wiki/Category:Bosses_(Hollow_Knight)",
+        _wiki, "hollowknight", "Hollow Knight",
+    ),
+    (
         "https://leagueoflegends.fandom.com/wiki/Category:Playable_characters",
         _wiki, "leagueoflegends", "League",
     ),
