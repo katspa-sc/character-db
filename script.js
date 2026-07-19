@@ -1,4 +1,6 @@
 const FANDOM_SORT_ORDER = [
+  "Marvel",
+  "DC",
   "League",
   "Pokemon",
   "DBD Killers (Offline)",

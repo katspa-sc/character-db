@@ -20,7 +20,7 @@ import os
 import requests
 from PIL import Image
 
-from parsers import MediaWikiCategoryParser, BulbapediaParser
+from parsers import MediaWikiCategoryParser, BulbapediaParser, RankedListParser
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_JSON = os.path.join(REPO, "data", "characters.json")
@@ -71,6 +71,17 @@ FANDOMS = [
     (
         "https://bulbapedia.bulbagarden.net/wiki/Category:Pokémon",
         BulbapediaParser(), "bulbapedia", "Pokemon",
+    ),
+    # Marvel/DC wiki categories have 100k+ members, so instead of scraping the
+    # whole roster these resolve a curated top-N list ranked by Wikipedia
+    # pageviews (cache/*.json, produced by the fandom_parser project).
+    (
+        "cache/marvel.json",
+        RankedListParser("https://marvel.fandom.com/api.php"), "marvel", "Marvel",
+    ),
+    (
+        "cache/dc.json",
+        RankedListParser("https://dc.fandom.com/api.php"), "dc", "DC",
     ),
 ]
 
