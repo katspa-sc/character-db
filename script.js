@@ -1,20 +1,3 @@
-const FANDOM_SORT_ORDER = [
-  "Marvel",
-  "DC",
-  "League",
-  "Pokemon",
-  "DBD Killers (Offline)",
-  "DBD Survivors (Offline)",
-  "Guilty Gear",
-  "Hades",
-  "League",
-  "Mortal",
-  "Street Fighter",
-  "Tekken",
-  "Wiedźmin",
-  "Gothic",
-];
-
 document.addEventListener('DOMContentLoaded', () => {
   // --- Globals and DOM Elements ---
   let allCharacters = [];
@@ -67,26 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // 1. Get a unique list of all fandom display names
     const allFandomNames = [...new Set(allCharacters.map(c => c.fandom_display))];
 
-    // 2. Sort the fandoms using our custom logic
-    allFandomNames.sort((a, b) => {
-        const indexA = FANDOM_SORT_ORDER.indexOf(a);
-        const indexB = FANDOM_SORT_ORDER.indexOf(b);
-
-        if (indexA !== -1 && indexB !== -1) {
-            // Both fandoms are in our priority list, sort by their index
-            return indexA - indexB;
-        }
-        if (indexA !== -1) {
-            // Only 'a' is in the priority list, so it comes first
-            return -1;
-        }
-        if (indexB !== -1) {
-            // Only 'b' is in the priority list, so it comes first
-            return 1;
-        }
-        // Neither fandom is in the priority list, sort them alphabetically
-        return a.localeCompare(b);
-    });
+    // 2. Sort the fandoms alphabetically (ascending)
+    allFandomNames.sort((a, b) => a.localeCompare(b));
 
     // 3. Create and append the checkboxes in the new sorted order
     allFandomNames.forEach(fandom => {
@@ -174,8 +139,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     elements.statusMessage.textContent = `${characters.length} result(s) found.`;
-    
-    characters.forEach(char => {
+
+    const sorted = [...characters].sort((a, b) => a.name.localeCompare(b.name));
+    sorted.forEach(char => {
         const isIgnored = stateManager.isIgnored(char.hash);
         const isUsed = stateManager.isUsed(char.hash);
 
