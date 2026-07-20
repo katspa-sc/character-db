@@ -1,4 +1,6 @@
 import json
+import os
+import tempfile
 import unittest
 from unittest.mock import patch
 
@@ -55,6 +57,27 @@ class TestFailureThreshold(unittest.TestCase):
 
     def test_zero_total_is_not_over(self):
         self.assertFalse(media_ranking.over_failure_threshold(0, 0))
+
+
+class TestLoadExcludedNames(unittest.TestCase):
+    def test_lowercases_and_unions_rosters(self):
+        paths = []
+        for names in (["Batman", "Bane"], ["Apocalypse"]):
+            fd, p = tempfile.mkstemp(suffix=".json")
+            with os.fdopen(fd, "w", encoding="utf-8") as f:
+                json.dump(names, f)
+            paths.append(p)
+        try:
+            with patch.object(media_ranking, "EXCLUDE_ROSTERS", paths):
+                result = media_ranking.load_excluded_names()
+        finally:
+            for p in paths:
+                os.remove(p)
+        self.assertEqual(result, {"batman", "bane", "apocalypse"})
+
+    def test_missing_roster_is_skipped(self):
+        with patch.object(media_ranking, "EXCLUDE_ROSTERS", ["/no/such/file.json"]):
+            self.assertEqual(media_ranking.load_excluded_names(), set())
 
 
 class TestFetchCandidatesRetry(unittest.TestCase):

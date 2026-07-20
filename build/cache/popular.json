@@ -1,71 +1,19 @@
 [
  [
-  "Batman",
-  "Batman"
- ],
- [
-  "Sherlock Holmes",
-  "Sherlock_Holmes"
- ],
- [
-  "Superman",
-  "Superman"
- ],
- [
   "Santa Claus",
   "Santa_Claus"
- ],
- [
-  "Black Adam",
-  "Black_Adam"
  ],
  [
   "Mickey Mouse",
   "Mickey_Mouse"
  ],
  [
-  "Michael Myers",
-  "Michael_Myers_(Halloween)"
- ],
- [
-  "Doctor Doom",
-  "Doctor_Doom"
- ],
- [
-  "Harley Quinn",
-  "Harley_Quinn"
- ],
- [
-  "Albus Dumbledore",
-  "Albus_Dumbledore"
- ],
- [
-  "Sauron",
-  "Sauron"
- ],
- [
   "Wednesday Addams",
   "Wednesday_Addams"
  ],
  [
-  "Tommy Shelby",
-  "Tommy_Shelby"
- ],
- [
   "Darth Vader",
   "Darth_Vader"
- ],
- [
-  "Robin Hood",
-  "Robin_Hood"
- ],
- [
-  "Deadpool",
-  "Deadpool"
- ],
- [
-  "Grogu",
-  "Grogu"
  ],
  [
   "The Homelander",
@@ -76,96 +24,24 @@
   "Mario"
  ],
  [
-  "Godzilla",
-  "Godzilla"
+  "Loch Ness Monster",
+  "Loch_Ness_Monster"
  ],
  [
-  "Daenerys Targaryen",
-  "Daenerys_Targaryen"
- ],
- [
-  "Walter White",
-  "Walter_White_(Breaking_Bad)"
- ],
- [
-  "Hannibal Lecter",
-  "Hannibal_Lecter"
- ],
- [
-  "Iron Man",
-  "Iron_Man"
- ],
- [
-  "Kraven the Hunter",
-  "Kraven_the_Hunter"
- ],
- [
-  "The Joker",
-  "Joker_(character)"
- ],
- [
-  "Annabelle",
-  "Annabelle_(doll)"
- ],
- [
-  "Sheldon Cooper",
-  "Sheldon_Cooper"
- ],
- [
-  "Pee-wee Herman",
-  "Pee-wee_Herman"
- ],
- [
-  "Wonder Woman",
-  "Wonder_Woman"
- ],
- [
-  "Jack Reacher",
-  "Jack_Reacher"
- ],
- [
-  "Paul Atreides",
-  "Paul_Atreides"
- ],
- [
-  "Hercule Poirot",
-  "Hercule_Poirot"
- ],
- [
-  "Hulk",
-  "Hulk"
+  "Miles Morales",
+  "Miles_Morales"
  ],
  [
   "Popeye",
   "Popeye"
  ],
  [
-  "Wolverine",
-  "Wolverine_(character)"
- ],
- [
-  "Jason Voorhees",
-  "Jason_Voorhees"
- ],
- [
-  "Freddy Krueger",
-  "Freddy_Krueger"
- ],
- [
-  "Meredith Grey",
-  "Meredith_Grey"
- ],
- [
   "Goku",
   "Goku"
  ],
  [
-  "Willy Wonka",
-  "Willy_Wonka"
- ],
- [
-  "Saul Goodman",
-  "Saul_Goodman"
+  "Omni-Man",
+  "Omni-Man"
  ],
  [
   "Palpatine",
@@ -180,38 +56,6 @@
   "Kratos_(God_of_War)"
  ],
  [
-  "Severus Snape",
-  "Severus_Snape"
- ],
- [
-  "Patrick Bateman",
-  "Patrick_Bateman"
- ],
- [
-  "Punisher",
-  "Punisher"
- ],
- [
-  "Galadriel",
-  "Galadriel"
- ],
- [
-  "Tony Soprano",
-  "Tony_Soprano"
- ],
- [
-  "Gus Fring",
-  "Gus_Fring"
- ],
- [
-  "Kingpin",
-  "Kingpin_(character)"
- ],
- [
-  "Gollum",
-  "Gollum"
- ],
- [
   "Obi-Wan Kenobi",
   "Obi-Wan_Kenobi"
  ],
@@ -220,72 +64,20 @@
   "Count_Dracula"
  ],
  [
+  "Pepe the Frog",
+  "Pepe_the_Frog"
+ ],
+ [
   "Stitch",
   "Stitch_(Lilo_&_Stitch)"
- ],
- [
-  "Gandalf",
-  "Gandalf"
- ],
- [
-  "Art the Clown",
-  "Art_the_Clown"
- ],
- [
-  "Hermione Granger",
-  "Hermione_Granger"
- ],
- [
-  "SpongeBob SquarePants",
-  "SpongeBob_SquarePants_(character)"
- ],
- [
-  "Tom Bombadil",
-  "Tom_Bombadil"
- ],
- [
-  "Grinch",
-  "Grinch"
- ],
- [
-  "Aragorn",
-  "Aragorn"
  ],
  [
   "Slender Man",
   "Slender_Man"
  ],
  [
-  "Jon Snow",
-  "Jon_Snow_(character)"
- ],
- [
-  "Harry Potter",
-  "Harry_Potter_(character)"
- ],
- [
   "Satoru Gojo",
   "Satoru_Gojo"
- ],
- [
-  "Wanda Maximoff",
-  "Wanda_Maximoff_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Anton Chigurh",
-  "Anton_Chigurh"
- ],
- [
-  "Catwoman",
-  "Catwoman"
- ],
- [
-  "Gorr the God Butcher",
-  "Gorr_the_God_Butcher"
- ],
- [
-  "Lord Farquaad",
-  "Lord_Farquaad"
  ],
  [
   "Morticia Addams",
@@ -296,240 +88,48 @@
   "Boba_Fett"
  ],
  [
-  "Ernst Stavro Blofeld",
-  "Ernst_Stavro_Blofeld"
- ],
- [
-  "The Penguin",
-  "Penguin_(character)"
- ],
- [
-  "Peter Griffin",
-  "Peter_Griffin"
- ],
- [
-  "Paddington Bear",
-  "Paddington_Bear"
- ],
- [
-  "Eleven",
-  "Eleven_(Stranger_Things)"
- ],
- [
-  "Dick Grayson",
-  "Dick_Grayson"
- ],
- [
-  "Vladimir Harkonnen",
-  "Vladimir_Harkonnen"
- ],
- [
-  "Morgan le Fay",
-  "Morgan_le_Fay"
- ],
- [
-  "Ahsoka Tano",
-  "Ahsoka_Tano"
- ],
- [
-  "Daredevil",
-  "Daredevil_(Marvel_Comics_character)"
- ],
- [
-  "Vito Corleone",
-  "Vito_Corleone"
- ],
- [
-  "Gambit",
-  "Gambit_(Marvel_Comics)"
- ],
- [
-  "Jason Todd",
-  "Jason_Todd"
- ],
- [
-  "Tony Stark",
-  "Tony_Stark_(Marvel_Cinematic_Universe)"
- ],
- [
   "Goofy",
   "Goofy"
- ],
- [
-  "Zorro",
-  "Zorro"
- ],
- [
-  "John Constantine",
-  "John_Constantine"
  ],
  [
   "He-Man",
   "He-Man"
  ],
  [
-  "Carnage",
-  "Carnage_(character)"
- ],
- [
-  "Mike Ehrmantraut",
-  "Mike_Ehrmantraut"
- ],
- [
-  "James Bond",
-  "James_Bond_(literary_character)"
- ],
- [
-  "Christopher Moltisanti",
-  "Christopher_Moltisanti"
- ],
- [
-  "Isildur",
-  "Isildur"
- ],
- [
-  "Captain Jack Sparrow",
-  "Jack_Sparrow"
- ],
- [
   "Hellboy",
   "Hellboy"
- ],
- [
-  "Mark Sloan",
-  "Mark_Sloan_(Grey's_Anatomy)"
- ],
- [
-  "Riddler",
-  "Riddler"
  ],
  [
   "Roronoa Zoro",
   "Roronoa_Zoro"
  ],
  [
-  "Fourteenth Doctor",
-  "Fourteenth_Doctor"
- ],
- [
   "Shadow the Hedgehog",
   "Shadow_the_Hedgehog"
- ],
- [
-  "Derek Shepherd",
-  "Derek_Shepherd"
  ],
  [
   "Billy Butcher",
   "Billy_Butcher"
  ],
  [
-  "Madea",
-  "Madea"
+  "Snoopy",
+  "Snoopy"
  ],
  [
   "Eren Yeager",
   "Eren_Yeager"
  ],
  [
-  "Sweeney Todd",
-  "Sweeney_Todd"
- ],
- [
-  "Guan Yin",
-  "Guanyin"
- ],
- [
-  "Thomas the Tank Engine",
-  "Thomas_the_Tank_Engine"
- ],
- [
   "Spawn",
   "Spawn_(character)"
- ],
- [
-  "Tarzan",
-  "Tarzan"
- ],
- [
-  "Darkseid",
-  "Darkseid"
- ],
- [
-  "Natasha Romanoff",
-  "Natasha_Romanoff_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Professor Moriarty",
-  "Professor_Moriarty"
- ],
- [
-  "Draco Malfoy",
-  "Draco_Malfoy"
- ],
- [
-  "Michael Scott",
-  "Michael_Scott_(The_Office)"
- ],
- [
-  "Magneto",
-  "Magneto_(Marvel_Comics)"
- ],
- [
-  "Gregory House",
-  "Gregory_House"
- ],
- [
-  "Vesper Lynd",
-  "Vesper_Lynd"
  ],
  [
   "Sonic the Hedgehog",
   "Sonic_the_Hedgehog_(character)"
  ],
  [
-  "Chandler Bing",
-  "Chandler_Bing"
- ],
- [
-  "Kylo Ren",
-  "Kylo_Ren"
- ],
- [
-  "Jean Grey",
-  "Jean_Grey"
- ],
- [
   "Princess Leia",
   "Princess_Leia"
- ],
- [
-  "Chani",
-  "Chani_(character)"
- ],
- [
-  "Thunderbolt Ross",
-  "Thunderbolt_Ross"
- ],
- [
-  "Bart Simpson",
-  "Bart_Simpson"
- ],
- [
-  "Frankenstein's monster",
-  "Frankenstein's_monster"
- ],
- [
-  "King Kong",
-  "King_Kong"
- ],
- [
-  "Ra's al Ghul",
-  "Ra's_al_Ghul"
- ],
- [
-  "Cruella de Vil",
-  "Cruella_de_Vil"
  ],
  [
   "Velma Dinkley",
@@ -540,120 +140,20 @@
   "Rick_Grimes"
  ],
  [
-  "Vecna",
-  "Vecna_(Stranger_Things)"
- ],
- [
-  "Mr. Miyagi",
-  "Mr._Miyagi"
- ],
- [
-  "Deathstroke",
-  "Deathstroke"
- ],
- [
   "Negan",
   "Negan"
- ],
- [
-  "Count Orlok",
-  "Count_Orlok"
- ],
- [
-  "The Stig",
-  "The_Stig"
- ],
- [
-  "Jack Ryan",
-  "Jack_Ryan_(character)"
- ],
- [
-  "Red John",
-  "Red_John"
  ],
  [
   "Gomez Addams",
   "Gomez_Addams"
  ],
  [
-  "Princess Irulan",
-  "Princess_Irulan"
- ],
- [
-  "Lex Luthor",
-  "Lex_Luthor"
- ],
- [
-  "Leatherface",
-  "Leatherface"
- ],
- [
-  "Izzie Stevens",
-  "Izzie_Stevens"
- ],
- [
-  "Steve Urkel",
-  "Steve_Urkel"
- ],
- [
-  "Rogue",
-  "Rogue_(Marvel_Comics)"
- ],
- [
-  "Poison Ivy",
-  "Poison_Ivy_(character)"
- ],
- [
-  "MacGyver",
-  "MacGyver"
- ],
- [
-  "Amelia Shepherd",
-  "Amelia_Shepherd"
- ],
- [
   "Padmé Amidala",
   "Padmé_Amidala"
  ],
  [
-  "Michael Corleone",
-  "Michael_Corleone"
- ],
- [
-  "Conan the Barbarian",
-  "Conan_the_Barbarian"
- ],
- [
-  "Elrond",
-  "Elrond"
- ],
- [
-  "Alex Karev",
-  "Alex_Karev"
- ],
- [
-  "Pippi Longstocking",
-  "Pippi_Longstocking"
- ],
- [
-  "Homer Simpson",
-  "Homer_Simpson"
- ],
- [
-  "Jesse Pinkman",
-  "Jesse_Pinkman"
- ],
- [
   "Luke Skywalker",
   "Luke_Skywalker"
- ],
- [
-  "Bane",
-  "Bane_(DC_Comics)"
- ],
- [
-  "Fifteenth Doctor",
-  "Fifteenth_Doctor"
  ],
  [
   "Soldier Boy",
@@ -664,112 +164,32 @@
   "Doctor_Manhattan"
  ],
  [
-  "Lalo Salamanca",
-  "Lalo_Salamanca"
- ],
- [
   "Leon S. Kennedy",
   "Leon_S._Kennedy"
- ],
- [
-  "April Kepner",
-  "April_Kepner"
  ],
  [
   "Indiana Jones",
   "Indiana_Jones_(character)"
  ],
  [
-  "Rey",
-  "Rey_(Star_Wars)"
- ],
- [
-  "Two-Face",
-  "Two-Face"
- ],
- [
-  "Max Headroom",
-  "Max_Headroom"
- ],
- [
-  "Steve Harrington",
-  "Steve_Harrington"
- ],
- [
   "Kermit the Frog",
   "Kermit_the_Frog"
- ],
- [
-  "Cosmo Kramer",
-  "Cosmo_Kramer"
  ],
  [
   "Dexter Morgan",
   "Dexter_Morgan"
  ],
  [
-  "Mr. Big",
-  "Mr._Big_(Sex_and_the_City)"
- ],
- [
   "Knuckles the Echidna",
   "Knuckles_the_Echidna"
- ],
- [
-  "Rubeus Hagrid",
-  "Rubeus_Hagrid"
- ],
- [
-  "Rocky Balboa",
-  "Rocky_Balboa"
- ],
- [
-  "Pinhead",
-  "Pinhead_(Hellraiser)"
- ],
- [
-  "Arsène Lupin",
-  "Arsène_Lupin"
- ],
- [
-  "Buzz Lightyear",
-  "Buzz_Lightyear"
- ],
- [
-  "Abraham Van Helsing",
-  "Abraham_Van_Helsing"
- ],
- [
-  "Cristina Yang",
-  "Cristina_Yang"
  ],
  [
   "Ellie",
   "Ellie_(The_Last_of_Us)"
  ],
  [
-  "Percy Jackson",
-  "Percy_Jackson"
- ],
- [
   "Donald Duck",
   "Donald_Duck"
- ],
- [
-  "Spider-Man Noir",
-  "Spider-Man_Noir"
- ],
- [
-  "Samantha Jones",
-  "Samantha_Jones_(Sex_and_the_City)"
- ],
- [
-  "Feyd-Rautha Harkonnen",
-  "Feyd-Rautha"
- ],
- [
-  "Lady Jessica",
-  "Lady_Jessica"
  ],
  [
   "Lara Croft",
@@ -780,140 +200,32 @@
   "Uncle_Fester"
  ],
  [
-  "Juggernaut",
-  "Juggernaut_(character)"
- ],
- [
   "Shaggy Rogers",
   "Shaggy_Rogers"
- ],
- [
-  "Norman Bates",
-  "Norman_Bates"
- ],
- [
-  "Tony Montana",
-  "Tony_Montana"
- ],
- [
-  "Fonzie",
-  "Fonzie"
  ],
  [
   "Skynet",
   "Skynet_(Terminator)"
  ],
  [
-  "Duncan Idaho",
-  "Duncan_Idaho"
- ],
- [
-  "Luna Lovegood",
-  "Luna_Lovegood"
- ],
- [
   "James T. Kirk",
   "James_T._Kirk"
- ],
- [
-  "Paulie Gualtieri",
-  "Paulie_Gualtieri"
- ],
- [
-  "Elphaba",
-  "Elphaba"
- ],
- [
-  "Mephisto",
-  "Mephisto_(Marvel_Comics)"
- ],
- [
-  "Green Goblin",
-  "Green_Goblin"
  ],
  [
   "Grand Admiral Thrawn",
   "Grand_Admiral_Thrawn"
  ],
  [
-  "Apollo Creed",
-  "Apollo_Creed"
- ],
- [
-  "Damian Wayne",
-  "Damian_Wayne"
- ],
- [
-  "George O'Malley",
-  "George_O'Malley"
- ],
- [
   "Yoda",
   "Yoda"
- ],
- [
-  "Cable",
-  "Cable_(character)"
- ],
- [
-  "Scarecrow",
-  "Scarecrow_(DC_Comics)"
  ],
  [
   "Tanjirō Kamado",
   "Tanjiro_Kamado"
  ],
  [
-  "Alia Atreides",
-  "Alia_Atreides"
- ],
- [
-  "Ursula",
-  "Ursula_(The_Little_Mermaid)"
- ],
- [
-  "Black Cat",
-  "Black_Cat_(Marvel_Comics)"
- ],
- [
-  "Mary Jane Watson",
-  "Mary_Jane_Watson"
- ],
- [
-  "Scarlett O'Hara",
-  "Scarlett_O'Hara"
- ],
- [
-  "Sinterklaas",
-  "Sinterklaas"
- ],
- [
-  "Imperator Furiosa",
-  "Imperator_Furiosa"
- ],
- [
-  "Addison Montgomery",
-  "Addison_Montgomery"
- ],
- [
-  "Owen Hunt",
-  "Owen_Hunt"
- ],
- [
   "Princess Peach",
   "Princess_Peach"
- ],
- [
-  "Don Draper",
-  "Don_Draper"
- ],
- [
-  "Martian Manhunter",
-  "Martian_Manhunter"
- ],
- [
-  "Jessica Rabbit",
-  "Jessica_Rabbit"
  ],
  [
   "Ash Ketchum",
@@ -932,140 +244,24 @@
   "Doctor_Eggman"
  ],
  [
-  "John Wick",
-  "John_Wick_(character)"
- ],
- [
-  "Cersei Lannister",
-  "Cersei_Lannister"
- ],
- [
-  "Minerva McGonagall",
-  "Minerva_McGonagall"
- ],
- [
-  "Sirius Black",
-  "Sirius_Black"
- ],
- [
-  "Kitty Pryde",
-  "Kitty_Pryde"
- ],
- [
   "Geralt of Rivia",
   "Geralt_of_Rivia"
  ],
  [
-  "Doctor Fate",
-  "Doctor_Fate"
- ],
- [
-  "Cyclops",
-  "Cyclops_(Marvel_Comics)"
- ],
- [
-  "Lexie Grey",
-  "Lexie_Grey"
- ],
- [
-  "Bellatrix Lestrange",
-  "Bellatrix_Lestrange"
- ],
- [
-  "George Costanza",
-  "George_Costanza"
+  "Charlie Brown",
+  "Charlie_Brown"
  ],
  [
   "Master Chief",
   "Master_Chief_(Halo)"
  ],
  [
-  "Joe Goldberg",
-  "Joe_Goldberg"
- ],
- [
-  "Jinx",
-  "Jinx_(League_of_Legends)"
- ],
- [
-  "Silvio Dante",
-  "Silvio_Dante"
- ],
- [
-  "Edna Mode",
-  "Edna_Mode"
- ],
- [
-  "Sofia Falcone",
-  "Sofia_Falcone"
- ],
- [
-  "Cheshire Cat",
-  "Cheshire_Cat"
- ],
- [
   "Bowser",
   "Bowser"
  ],
  [
-  "Callie Torres",
-  "Callie_Torres"
- ],
- [
-  "King Ghidorah",
-  "King_Ghidorah"
- ],
- [
-  "Professor X",
-  "Professor_X"
- ],
- [
-  "Olivia Benson",
-  "Olivia_Benson"
- ],
- [
-  "Crazy Frog",
-  "Crazy_Frog"
- ],
- [
-  "Ron Weasley",
-  "Ron_Weasley"
- ],
- [
-  "Tenth Doctor",
-  "Tenth_Doctor"
- ],
- [
-  "Han Lue",
-  "Han_Lue"
- ],
- [
   "Itachi Uchiha",
   "Itachi_Uchiha"
- ],
- [
-  "Jackson Avery",
-  "Jackson_Avery"
- ],
- [
-  "Cassian Andor",
-  "Cassian_Andor"
- ],
- [
-  "Tim Drake",
-  "Tim_Drake"
- ],
- [
-  "Kim Wexler",
-  "Kim_Wexler"
- ],
- [
-  "Oberyn Martell",
-  "Oberyn_Martell"
- ],
- [
-  "Elmo",
-  "Elmo"
  ],
  [
   "Naruto Uzumaki",
@@ -1076,10 +272,6 @@
   "Judge_Dredd"
  ],
  [
-  "Keyser Söze",
-  "Keyser_Söze"
- ],
- [
   "Abby",
   "Abby_(The_Last_of_Us)"
  ],
@@ -1088,144 +280,24 @@
   "Megatron"
  ],
  [
-  "Starfire",
-  "Starfire_(Teen_Titans)"
- ],
- [
-  "Doomsday",
-  "Doomsday_(DC_Comics)"
- ],
- [
-  "Arwen",
-  "Arwen"
- ],
- [
-  "Nurse Ratched",
-  "Nurse_Ratched"
- ],
- [
-  "The Mother",
-  "The_Mother_(How_I_Met_Your_Mother)"
- ],
- [
   "Doraemon",
   "Doraemon_(character)"
- ],
- [
-  "Ebenezer Scrooge",
-  "Ebenezer_Scrooge"
- ],
- [
-  "Immortan Joe",
-  "Immortan_Joe"
- ],
- [
-  "M",
-  "M_(James_Bond)"
- ],
- [
-  "Sansa Stark",
-  "Sansa_Stark"
- ],
- [
-  "Storm",
-  "Storm_(Marvel_Comics)"
  ],
  [
   "Alcina Dimitrescu",
   "Lady_Dimitrescu"
  ],
  [
-  "Dwight Schrute",
-  "Dwight_Schrute"
- ],
- [
-  "Brian O'Conner",
-  "Brian_O'Conner"
- ],
- [
-  "Laurie Strode",
-  "Laurie_Strode"
- ],
- [
-  "Kara Zor-El",
-  "Supergirl_(Kara_Zor-El)"
- ],
- [
   "HAL 9000",
   "HAL_9000"
- ],
- [
-  "Jessica Jones",
-  "Jessica_Jones"
- ],
- [
-  "Daryl Dixon",
-  "Daryl_Dixon"
- ],
- [
-  "Lucifer",
-  "Lucifer_(DC_Comics)"
- ],
- [
-  "Dolores Umbridge",
-  "Dolores_Umbridge"
- ],
- [
-  "Egon Spengler",
-  "Egon_Spengler"
- ],
- [
-  "Nacho Varga",
-  "Nacho_Varga"
- ],
- [
-  "Elliot Stabler",
-  "Elliot_Stabler"
- ],
- [
-  "Nancy Drew",
-  "Nancy_Drew"
- ],
- [
-  "Thirteenth Doctor",
-  "Thirteenth_Doctor"
- ],
- [
-  "Damon Salvatore",
-  "Damon_Salvatore"
- ],
- [
-  "X-23",
-  "X-23"
  ],
  [
   "Minnie Mouse",
   "Minnie_Mouse"
  ],
  [
-  "Mysterio",
-  "Mysterio"
- ],
- [
-  "Ginny Weasley",
-  "Ginny_Weasley"
- ],
- [
-  "Hank Schrader",
-  "Hank_Schrader"
- ],
- [
-  "Aquaman",
-  "Aquaman"
- ],
- [
-  "Ross Geller",
-  "Ross_Geller"
- ],
- [
-  "Dominic Toretto",
-  "Dominic_Toretto"
+  "Peni Parker",
+  "Peni_Parker"
  ],
  [
   "Logan",
@@ -1236,192 +308,36 @@
   "Yuta_Okkotsu"
  ],
  [
-  "Beth Harmon",
-  "Beth_Harmon"
- ],
- [
-  "Guy Gardner",
-  "Guy_Gardner_(character)"
- ],
- [
-  "Arya Stark",
-  "Arya_Stark"
- ],
- [
-  "Alfred Pennyworth",
-  "Alfred_Pennyworth"
- ],
- [
   "Jabba the Hutt",
   "Jabba_the_Hutt"
- ],
- [
-  "Barbara Gordon",
-  "Barbara_Gordon"
- ],
- [
-  "Solomon Grundy",
-  "Solomon_Grundy_(character)"
- ],
- [
-  "The Master",
-  "The_Master_(Doctor_Who)"
- ],
- [
-  "Loki",
-  "Loki_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Miss Marple",
-  "Miss_Marple"
- ],
- [
-  "Rachel Green",
-  "Rachel_Green"
- ],
- [
-  "Gawain",
-  "Gawain"
- ],
- [
-  "Adriana La Cerva",
-  "Adriana_La_Cerva"
- ],
- [
-  "Clayface",
-  "Clayface"
- ],
- [
-  "Dorothy Gale",
-  "Dorothy_Gale"
- ],
- [
-  "Luke Cage",
-  "Luke_Cage"
- ],
- [
-  "Miranda Bailey",
-  "Miranda_Bailey"
- ],
- [
-  "Nezha",
-  "Nezha"
  ],
  [
   "Steve",
   "Steve_(Minecraft)"
  ],
  [
-  "Will Byers",
-  "Will_Byers"
- ],
- [
-  "King Shark",
-  "King_Shark"
- ],
- [
-  "Tyrion Lannister",
-  "Tyrion_Lannister"
- ],
- [
-  "Penny",
-  "Penny_(The_Big_Bang_Theory)"
- ],
- [
-  "Joey Tribbiani",
-  "Joey_Tribbiani"
- ],
- [
-  "Lestat de Lioncourt",
-  "Lestat_de_Lioncourt"
- ],
- [
-  "John Rambo",
-  "John_Rambo"
- ],
- [
-  "Snake Eyes",
-  "Snake_Eyes_(G.I._Joe)"
- ],
- [
-  "Sinbad the Sailor",
-  "Sinbad_the_Sailor"
- ],
- [
-  "Don Juan",
-  "Don_Juan"
- ],
- [
-  "Jason Bourne",
-  "Jason_Bourne"
- ],
- [
-  "Katniss Everdeen",
-  "Katniss_Everdeen"
- ],
- [
   "Jar Jar Binks",
   "Jar_Jar_Binks"
  ],
  [
-  "Eleventh Doctor",
-  "Eleventh_Doctor"
- ],
- [
-  "Squidward Tentacles",
-  "Squidward_Tentacles"
- ],
- [
-  "Gregor Clegane",
-  "Gregor_Clegane"
- ],
- [
-  "Joffrey Baratheon",
-  "Joffrey_Baratheon"
- ],
- [
-  "Rorschach",
-  "Rorschach_(character)"
- ],
- [
-  "Thirteen",
-  "Thirteen_(House)"
+  "Invincible",
+  "Invincible_(character)"
  ],
  [
   "Ada Wong",
   "Ada_Wong"
  ],
  [
-  "Elektra",
-  "Elektra_(character)"
- ],
- [
   "Ryomen Sukuna",
   "Ryomen_Sukuna"
- ],
- [
-  "Andrew DeLuca",
-  "Andrew_DeLuca"
- ],
- [
-  "Gisele Yashar",
-  "Gisele_Yashar"
  ],
  [
   "Max Rockatansky",
   "Max_Rockatansky"
  ],
  [
-  "Long John Silver",
-  "Long_John_Silver"
- ],
- [
   "Miles \"Tails\" Prower",
   "Tails_(Sonic_the_Hedgehog)"
- ],
- [
-  "Tommy Oliver",
-  "Tommy_Oliver"
  ],
  [
   "L",
@@ -1436,132 +352,24 @@
   "Count_Dooku"
  ],
  [
-  "Junior Soprano",
-  "Junior_Soprano"
- ],
- [
-  "Khan Noonien Singh",
-  "Khan_Noonien_Singh"
- ],
- [
-  "Gibbs",
-  "Leroy_Jethro_Gibbs"
- ],
- [
   "Leeroy Jenkins",
   "Leeroy_Jenkins"
- ],
- [
-  "Sun Wukong",
-  "Sun_Wukong"
- ],
- [
-  "Yelena Belova",
-  "Yelena_Belova_(Marvel_Cinematic_Universe)"
  ],
  [
   "Joel",
   "Joel_(The_Last_of_Us)"
  ],
  [
-  "Polka-Dot Man",
-  "Polka-Dot_Man"
- ],
- [
-  "Apocalypse",
-  "Apocalypse_(character)"
- ],
- [
-  "Alfie Solomons",
-  "Alfie_Solomons"
- ],
- [
-  "Carmine Falcone",
-  "Carmine_Falcone"
- ],
- [
-  "Omar Little",
-  "Omar_Little"
- ],
- [
-  "Ivan Drago",
-  "Ivan_Drago"
- ],
- [
-  "Phoebe Buffay",
-  "Phoebe_Buffay"
- ],
- [
-  "Casper the Friendly Ghost",
-  "Casper_the_Friendly_Ghost"
- ],
- [
-  "John Carter",
-  "John_Carter_(ER)"
- ],
- [
-  "Chuck McGill",
-  "Chuck_McGill"
- ],
- [
   "Albert Wesker",
   "Albert_Wesker"
  ],
  [
-  "Hans Landa",
-  "Hans_Landa"
- ],
- [
-  "Celebrimbor",
-  "Celebrimbor"
- ],
- [
-  "Frodo Baggins",
-  "Frodo_Baggins"
- ],
- [
-  "Archie Bunker",
-  "Archie_Bunker"
- ],
- [
-  "Fredo Corleone",
-  "Fredo_Corleone"
- ],
- [
-  "Nightcrawler",
-  "Nightcrawler_(character)"
- ],
- [
-  "Brainiac",
-  "Brainiac_(character)"
- ],
- [
-  "Elaine Benes",
-  "Elaine_Benes"
- ],
- [
-  "Saruman",
-  "Saruman"
+  "Sadako Yamamura",
+  "Sadako_Yamamura"
  ],
  [
   "Kirby",
   "Kirby_(character)"
- ],
- [
-  "Flash Thompson",
-  "Flash_Thompson"
- ],
- [
-  "Seven of Nine",
-  "Seven_of_Nine"
- ],
- [
-  "Norman Osborn",
-  "Norman_Osborn"
- ],
- [
-  "Miss Moneypenny",
-  "Miss_Moneypenny"
  ],
  [
   "She-Ra",
@@ -1572,328 +380,64 @@
   "Hughie_Campbell"
  ],
  [
-  "Mystique",
-  "Mystique_(character)"
- ],
- [
-  "Bizarro",
-  "Bizarro"
- ],
- [
-  "Victor Frankenstein",
-  "Victor_Frankenstein"
- ],
- [
-  "Margaery Tyrell",
-  "Margaery_Tyrell"
- ],
- [
-  "Carrie Bradshaw",
-  "Carrie_Bradshaw"
- ],
- [
-  "Thor",
-  "Thor_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Talia al Ghul",
-  "Talia_al_Ghul"
- ],
- [
-  "Marge Simpson",
-  "Marge_Simpson"
- ],
- [
-  "Mothra",
-  "Mothra"
- ],
- [
-  "Neo",
-  "Neo_(The_Matrix)"
- ],
- [
-  "Pennywise",
-  "Pennywise"
- ],
- [
-  "Peggy Carter",
-  "Peggy_Carter_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Jim Halpert",
-  "Jim_Halpert"
- ],
- [
-  "Tom Hagen",
-  "Tom_Hagen"
- ],
- [
-  "Éowyn",
-  "Éowyn"
- ],
- [
   "Wade Wilson",
   "Wade_Wilson_(film_character)"
  ],
  [
-  "Green Knight",
-  "Green_Knight"
+  "Savita Bhabhi",
+  "Savita_Bhabhi"
  ],
  [
-  "Coriolanus Snow",
-  "Coriolanus_Snow"
- ],
- [
-  "Randall Flagg",
-  "Randall_Flagg"
- ],
- [
-  "Fu Manchu",
-  "Fu_Manchu"
- ],
- [
-  "Tom Ripley",
-  "Tom_Ripley"
- ],
- [
-  "Ernest P. Worrell",
-  "Ernest_P._Worrell"
- ],
- [
-  "Arizona Robbins",
-  "Arizona_Robbins"
+  "Easter Bunny",
+  "Easter_Bunny"
  ],
  [
   "Jill Valentine",
   "Jill_Valentine"
  ],
  [
-  "Quicksilver",
-  "Quicksilver_(Marvel_Comics)"
- ],
- [
-  "Mr. Snuffleupagus",
-  "Mr._Snuffleupagus"
- ],
- [
-  "Scorpion",
-  "Scorpion_(Mortal_Kombat)"
- ],
- [
-  "Harry Bosch",
-  "Harry_Bosch"
- ],
- [
   "Kakashi Hatake",
   "Kakashi_Hatake"
- ],
- [
-  "America Chavez",
-  "America_Chavez_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Lone Ranger",
-  "Lone_Ranger"
- ],
- [
-  "Perry Mason",
-  "Perry_Mason"
- ],
- [
-  "Remus Lupin",
-  "Remus_Lupin"
- ],
- [
-  "Mina Harker",
-  "Mina_Harker"
  ],
  [
   "Bozo the Clown",
   "Bozo_the_Clown"
  ],
  [
-  "Renfield",
-  "Renfield"
+  "Felix the Cat",
+  "Felix_the_Cat"
  ],
  [
-  "Glenn Quagmire",
-  "Glenn_Quagmire"
- ],
- [
-  "Ali G",
-  "Ali_G"
- ],
- [
-  "Sam Wilson",
-  "Sam_Wilson_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Daniel LaRusso",
-  "Daniel_LaRusso"
- ],
- [
-  "Monica Geller",
-  "Monica_Geller"
- ],
- [
-  "Gellert Grindelwald",
-  "Gellert_Grindelwald"
- ],
- [
-  "Pam Beesly",
-  "Pam_Beesly"
- ],
- [
-  "Meg Griffin",
-  "Meg_Griffin"
+  "Gargamel",
+  "Gargamel"
  ],
  [
   "Thaddeus Ross",
   "Thaddeus_Ross_(Marvel_Cinematic_Universe)"
  ],
  [
-  "Big Brother",
-  "Big_Brother_(Nineteen_Eighty-Four)"
- ],
- [
-  "Teddy Altman",
-  "Teddy_Altman"
- ],
- [
-  "Hagar",
-  "Hagar"
- ],
- [
   "Yuji Itadori",
   "Yuji_Itadori"
- ],
- [
-  "Steve Rogers",
-  "Steve_Rogers_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Mon Mothma",
-  "Mon_Mothma"
- ],
- [
-  "Elena Gilbert",
-  "Elena_Gilbert"
- ],
- [
-  "Ichabod Crane",
-  "Ichabod_Crane"
- ],
- [
-  "Zatanna",
-  "Zatanna"
- ],
- [
-  "Man with No Name",
-  "Man_with_No_Name"
- ],
- [
-  "Al Bundy",
-  "Al_Bundy"
- ],
- [
-  "Terminator",
-  "Terminator_(character)"
- ],
- [
-  "Thing",
-  "Thing_(The_Addams_Family)"
- ],
- [
-  "Skeletor",
-  "Skeletor"
  ],
  [
   "Captain Nemo",
   "Captain_Nemo"
  ],
  [
-  "Alan Partridge",
-  "Alan_Partridge"
- ],
- [
-  "Rory Gilmore",
-  "Rory_Gilmore"
- ],
- [
   "Han Solo",
   "Han_Solo"
- ],
- [
-  "Cletus Kasady",
-  "Cletus_Kasady"
- ],
- [
-  "Human Torch",
-  "Human_Torch"
- ],
- [
-  "William Bludworth",
-  "William_Bludworth"
- ],
- [
-  "Stewie Griffin",
-  "Stewie_Griffin"
- ],
- [
-  "Legolas",
-  "Legolas"
  ],
  [
   "Nezuko Kamado",
   "Nezuko_Kamado"
  ],
  [
-  "Mason Verger",
-  "Mason_Verger"
- ],
- [
-  "Elendil",
-  "Elendil"
- ],
- [
-  "T'Challa",
-  "T'Challa_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Maleficent",
-  "Maleficent"
- ],
- [
   "Sub-Zero",
   "Sub-Zero_(Mortal_Kombat)"
  ],
  [
-  "Twelfth Doctor",
-  "Twelfth_Doctor"
- ],
- [
-  "Meadow Soprano",
-  "Meadow_Soprano"
- ],
- [
-  "Lemony Snicket",
-  "Lemony_Snicket"
- ],
- [
-  "Green Arrow",
-  "Green_Arrow"
- ],
- [
-  "Sonny Corleone",
-  "Sonny_Corleone"
- ],
- [
   "Doomguy",
   "Doomguy"
- ],
- [
-  "Rhino",
-  "Rhino_(character)"
  ],
  [
   "Flash Gordon",
@@ -1904,56 +448,16 @@
   "Sasuke_Uchiha"
  ],
  [
-  "Theon Greyjoy",
-  "Theon_Greyjoy"
- ],
- [
-  "Maggie Pierce",
-  "Maggie_Pierce"
- ],
- [
-  "Cedric Diggory",
-  "Cedric_Diggory"
- ],
- [
-  "Sabretooth",
-  "Sabretooth_(character)"
- ],
- [
-  "Nancy Wheeler",
-  "Nancy_Wheeler"
- ],
- [
-  "Shaddam Corrino IV",
-  "Shaddam_IV"
- ],
- [
-  "Ziva David",
-  "Ziva_David"
- ],
- [
   "Lurch",
   "Lurch_(The_Addams_Family)"
- ],
- [
-  "Hush",
-  "Hush_(character)"
  ],
  [
   "Scooby-Doo",
   "Scooby-Doo_(character)"
  ],
  [
-  "Yogi Bear",
-  "Yogi_Bear"
- ],
- [
   "Stephen Strange",
   "Stephen_Strange_(Marvel_Cinematic_Universe)"
- ],
- [
-  "Luca Brasi",
-  "Luca_Brasi"
  ],
  [
   "Johnny Cage",
@@ -1962,14 +466,6 @@
  [
   "Aang",
   "Aang"
- ],
- [
-  "Ellen Ripley",
-  "Ellen_Ripley"
- ],
- [
-  "James Rhodes",
-  "James_Rhodes_(Marvel_Cinematic_Universe)"
  ],
  [
   "Daphne Blake",
@@ -1984,19 +480,1523 @@
   "Shredder_(Teenage_Mutant_Ninja_Turtles)"
  ],
  [
-  "Jim Hopper",
-  "Jim_Hopper_(Stranger_Things)"
- ],
- [
-  "John Blackthorne",
-  "John_Blackthorne"
- ],
- [
   "Supreme Leader Snoke",
   "Supreme_Leader_Snoke"
  ],
  [
-  "Bilbo Baggins",
-  "Bilbo_Baggins"
+  "Tinker Bell",
+  "Tinker_Bell"
+ ],
+ [
+  "Chris Redfield",
+  "Chris_Redfield"
+ ],
+ [
+  "Yoshi",
+  "Yoshi"
+ ],
+ [
+  "Izuku Midoriya",
+  "Izuku_Midoriya"
+ ],
+ [
+  "Bruce Banner",
+  "Bruce_Banner_(Marvel_Cinematic_Universe)"
+ ],
+ [
+  "Alfred E. Neuman",
+  "Alfred_E._Neuman"
+ ],
+ [
+  "Chun-Li",
+  "Chun-Li"
+ ],
+ [
+  "Obito Uchiha",
+  "Obito_Uchiha"
+ ],
+ [
+  "Pyramid Head",
+  "Pyramid_Head"
+ ],
+ [
+  "Mr. Magoo",
+  "Mr._Magoo"
+ ],
+ [
+  "Nami",
+  "Nami_(One_Piece)"
+ ],
+ [
+  "Chewbacca",
+  "Chewbacca"
+ ],
+ [
+  "Carl Grimes",
+  "Carl_Grimes"
+ ],
+ [
+  "Link",
+  "Link_(The_Legend_of_Zelda)"
+ ],
+ [
+  "Black Noir",
+  "Black_Noir"
+ ],
+ [
+  "Michonne",
+  "Michonne"
+ ],
+ [
+  "Ash Williams",
+  "Ash_Williams"
+ ],
+ [
+  "Solid Snake",
+  "Solid_Snake"
+ ],
+ [
+  "Nico Robin",
+  "Nico_Robin"
+ ],
+ [
+  "Pugsley Addams",
+  "Pugsley_Addams"
+ ],
+ [
+  "Vegeta",
+  "Vegeta"
+ ],
+ [
+  "Light Yagami",
+  "Light_Yagami"
+ ],
+ [
+  "Wario",
+  "Wario"
+ ],
+ [
+  "Madara Uchiha",
+  "Madara_Uchiha"
+ ],
+ [
+  "April O'Neil",
+  "April_O'Neil"
+ ],
+ [
+  "Waluigi",
+  "Waluigi"
+ ],
+ [
+  "Broly",
+  "Broly"
+ ],
+ [
+  "Mother's Milk",
+  "Mother's_Milk_(character)"
+ ],
+ [
+  "Suguru Getō",
+  "Suguru_Geto"
+ ],
+ [
+  "Jaws",
+  "Jaws_(James_Bond)"
+ ],
+ [
+  "Raphael",
+  "Raphael_(Teenage_Mutant_Ninja_Turtles)"
+ ],
+ [
+  "Princess Daisy",
+  "Princess_Daisy"
+ ],
+ [
+  "Rosalina",
+  "Rosalina_(Mario)"
+ ],
+ [
+  "Garfield",
+  "Garfield_(character)"
+ ],
+ [
+  "Qui-Gon Jinn",
+  "Qui-Gon_Jinn"
+ ],
+ [
+  "Claire Redfield",
+  "Claire_Redfield"
+ ],
+ [
+  "The Tin Man",
+  "Tin_Woodman"
+ ],
+ [
+  "Cal Kestis",
+  "Cal_Kestis"
+ ],
+ [
+  "Cad Bane",
+  "Cad_Bane"
+ ],
+ [
+  "Hinata Hyūga",
+  "Hinata_Hyuga"
+ ],
+ [
+  "Liu Kang",
+  "Liu_Kang"
+ ],
+ [
+  "Zuko",
+  "Zuko"
+ ],
+ [
+  "Dio Brando",
+  "Dio_Brando"
+ ],
+ [
+  "General Grievous",
+  "General_Grievous"
+ ],
+ [
+  "Splinter",
+  "Splinter_(Teenage_Mutant_Ninja_Turtles)"
+ ],
+ [
+  "Pussy Galore",
+  "Pussy_Galore"
+ ],
+ [
+  "Trevor Philips",
+  "Trevor_Philips"
+ ],
+ [
+  "Big Boss",
+  "Big_Boss_(Metal_Gear)"
+ ],
+ [
+  "Pete",
+  "Pete_(Disney)"
+ ],
+ [
+  "Fred Jones",
+  "Fred_Jones_(Scooby-Doo)"
+ ],
+ [
+  "Maggie Greene",
+  "Maggie_Greene"
+ ],
+ [
+  "M. Bison",
+  "M._Bison"
+ ],
+ [
+  "Cortana",
+  "Cortana_(Halo)"
+ ],
+ [
+  "Raiden",
+  "Raiden_(Mortal_Kombat)"
+ ],
+ [
+  "Zero Two",
+  "Zero_Two"
+ ],
+ [
+  "Donatello",
+  "Donatello_(Teenage_Mutant_Ninja_Turtles)"
+ ],
+ [
+  "Leonardo",
+  "Leonardo_(Teenage_Mutant_Ninja_Turtles)"
+ ],
+ [
+  "Samus Aran",
+  "Samus_Aran"
+ ],
+ [
+  "Michelangelo",
+  "Michelangelo_(Teenage_Mutant_Ninja_Turtles)"
+ ],
+ [
+  "Asuka Langley Soryu",
+  "Asuka_Langley_Soryu"
+ ],
+ [
+  "GLaDOS",
+  "GLaDOS"
+ ],
+ [
+  "Frieza",
+  "Frieza"
+ ],
+ [
+  "Kitana",
+  "Kitana"
+ ],
+ [
+  "Lando Calrissian",
+  "Lando_Calrissian"
+ ],
+ [
+  "Iroh",
+  "Iroh"
+ ],
+ [
+  "Katara",
+  "Katara_(Avatar:_The_Last_Airbender)"
+ ],
+ [
+  "Sanji",
+  "Sanji_(One_Piece)"
+ ],
+ [
+  "C-3PO",
+  "C-3PO"
+ ],
+ [
+  "Vi",
+  "Vi_(League_of_Legends)"
+ ],
+ [
+  "Ezio Auditore da Firenze",
+  "Ezio_Auditore_da_Firenze"
+ ],
+ [
+  "Sephiroth",
+  "Sephiroth_(Final_Fantasy)"
+ ],
+ [
+  "Br'er Rabbit",
+  "Br'er_Rabbit"
+ ],
+ [
+  "Jughead Jones",
+  "Jughead_Jones"
+ ],
+ [
+  "Melusine",
+  "Melusine"
+ ],
+ [
+  "Kazuma Kiryu",
+  "Kazuma_Kiryu"
+ ],
+ [
+  "Akuma",
+  "Akuma_(Street_Fighter)"
+ ],
+ [
+  "Arishem the Judge",
+  "Arishem_the_Judge"
+ ],
+ [
+  "Toph Beifong",
+  "Toph_Beifong"
+ ],
+ [
+  "The Governor",
+  "The_Governor_(The_Walking_Dead)"
+ ],
+ [
+  "Archie Andrews",
+  "Archie_Andrews"
+ ],
+ [
+  "Griffith",
+  "Griffith_(Berserk)"
+ ],
+ [
+  "Jango Fett",
+  "Jango_Fett"
+ ],
+ [
+  "Usagi Tsukino",
+  "Sailor_Moon_(character)"
+ ],
+ [
+  "Smaug",
+  "Smaug"
+ ],
+ [
+  "Olive Oyl",
+  "Olive_Oyl"
+ ],
+ [
+  "Peppermint Patty",
+  "Peppermint_Patty"
+ ],
+ [
+  "R2-D2",
+  "R2-D2"
+ ],
+ [
+  "Alucard",
+  "Alucard_(Castlevania)"
+ ],
+ [
+  "Sonya Blade",
+  "Sonya_Blade"
+ ],
+ [
+  "Guts",
+  "Guts_(Berserk)"
+ ],
+ [
+  "Majin Buu",
+  "Majin_Buu"
+ ],
+ [
+  "Beta",
+  "Beta_(The_Walking_Dead)"
+ ],
+ [
+  "Nagato",
+  "Nagato_(Naruto)"
+ ],
+ [
+  "Himura Kenshin",
+  "Himura_Kenshin"
+ ],
+ [
+  "Tooth fairy",
+  "Tooth_fairy"
+ ],
+ [
+  "Tintin",
+  "Tintin_(character)"
+ ],
+ [
+  "Shang Tsung",
+  "Shang_Tsung"
+ ],
+ [
+  "Niko Bellic",
+  "Niko_Bellic"
+ ],
+ [
+  "Kewpie doll",
+  "Kewpie"
+ ],
+ [
+  "Ned Flanders",
+  "Ned_Flanders"
+ ],
+ [
+  "Agent 47",
+  "Agent_47"
+ ],
+ [
+  "2B",
+  "2B_(Nier:_Automata)"
+ ],
+ [
+  "Shao Kahn",
+  "Shao_Kahn"
+ ],
+ [
+  "Casey Jones",
+  "Casey_Jones_(Teenage_Mutant_Ninja_Turtles)"
+ ],
+ [
+  "Katsuki Bakugo",
+  "Katsuki_Bakugo"
+ ],
+ [
+  "Ryu",
+  "Ryu_(Street_Fighter)"
+ ],
+ [
+  "Ichigo Kurosaki",
+  "Ichigo_Kurosaki"
+ ],
+ [
+  "Ganon",
+  "Ganon"
+ ],
+ [
+  "Tux",
+  "Tux_(mascot)"
+ ],
+ [
+  "Jotaro Kujo",
+  "Jotaro_Kujo"
+ ],
+ [
+  "Tony Tony Chopper",
+  "Tony_Tony_Chopper"
+ ],
+ [
+  "Cloud Strife",
+  "Cloud_Strife"
+ ],
+ [
+  "Donkey Kong",
+  "Donkey_Kong_(character)"
+ ],
+ [
+  "Robert Langdon",
+  "Robert_Langdon"
+ ],
+ [
+  "Buck Rogers",
+  "Buck_Rogers"
+ ],
+ [
+  "Tifa Lockhart",
+  "Tifa_Lockhart"
+ ],
+ [
+  "Tommy Vercetti",
+  "Tommy_Vercetti"
+ ],
+ [
+  "Spike Spiegel",
+  "Spike_Spiegel"
+ ],
+ [
+  "Muttley",
+  "Muttley"
+ ],
+ [
+  "Spider-Ham",
+  "Spider-Ham"
+ ],
+ [
+  "Misa Amane",
+  "Misa_Amane"
+ ],
+ [
+  "Peter Maximoff",
+  "Peter_Maximoff"
+ ],
+ [
+  "Azula",
+  "Azula"
+ ],
+ [
+  "Kazuya Mishima",
+  "Kazuya_Mishima"
+ ],
+ [
+  "Orochimaru",
+  "Orochimaru_(Naruto)"
+ ],
+ [
+  "Ethan Winters",
+  "Ethan_Winters"
+ ],
+ [
+  "Jadis",
+  "Jadis_(The_Walking_Dead)"
+ ],
+ [
+  "Mace Windu",
+  "Mace_Windu"
+ ],
+ [
+  "Carol Peletier",
+  "Carol_Peletier"
+ ],
+ [
+  "Jin Kazama",
+  "Jin_Kazama"
+ ],
+ [
+  "Shane Walsh",
+  "Shane_Walsh_(The_Walking_Dead)"
+ ],
+ [
+  "Chloe Frazer",
+  "Chloe_Frazer"
+ ],
+ [
+  "Pusheen",
+  "Pusheen"
+ ],
+ [
+  "Rei Ayanami",
+  "Rei_Ayanami"
+ ],
+ [
+  "Kung Lao",
+  "Kung_Lao"
+ ],
+ [
+  "Woodstock",
+  "Woodstock_(Peanuts)"
+ ],
+ [
+  "Tank Girl",
+  "Tank_Girl"
+ ],
+ [
+  "Dante",
+  "Dante_(Devil_May_Cry)"
+ ],
+ [
+  "Pauline",
+  "Pauline_(Nintendo)"
+ ],
+ [
+  "Nobita Nobi",
+  "Nobita_Nobi"
+ ],
+ [
+  "Mr. Peanut",
+  "Mr._Peanut"
+ ],
+ [
+  "Jiraiya (Naruto)",
+  "Jiraiya_(Naruto)"
+ ],
+ [
+  "Birdo",
+  "Birdo"
+ ],
+ [
+  "Mileena",
+  "Mileena"
+ ],
+ [
+  "Megumi Fushiguro",
+  "Megumi_Fushiguro"
+ ],
+ [
+  "Princess Zelda",
+  "Princess_Zelda"
+ ],
+ [
+  "Della Duck",
+  "Della_Duck"
+ ],
+ [
+  "Captain Price",
+  "Captain_Price"
+ ],
+ [
+  "Living Tribunal",
+  "Living_Tribunal"
+ ],
+ [
+  "Noob Saibot",
+  "Noob_Saibot"
+ ],
+ [
+  "Mother Goose",
+  "Mother_Goose"
+ ],
+ [
+  "Dick Dastardly",
+  "Dick_Dastardly"
+ ],
+ [
+  "Rosita Espinosa",
+  "Rosita_Espinosa"
+ ],
+ [
+  "Kano",
+  "Kano_(Mortal_Kombat)"
+ ],
+ [
+  "Bridget",
+  "Bridget_(Guilty_Gear)"
+ ],
+ [
+  "Levi Ackerman",
+  "Levi_Ackerman"
+ ],
+ [
+  "Sabrina Spellman",
+  "Sabrina_Spellman"
+ ],
+ [
+  "Shinji Ikari",
+  "Shinji_Ikari"
+ ],
+ [
+  "Carl Johnson",
+  "Carl_Johnson_(Grand_Theft_Auto)"
+ ],
+ [
+  "Usopp",
+  "Usopp"
+ ],
+ [
+  "Vaas Montenegro",
+  "Vaas_Montenegro"
+ ],
+ [
+  "Xenia Onatopp",
+  "Xenia_Onatopp"
+ ],
+ [
+  "Sallah",
+  "Sallah"
+ ],
+ [
+  "Mara Jade",
+  "Mara_Jade"
+ ],
+ [
+  "Ashley Graham",
+  "Ashley_Graham_(Resident_Evil)"
+ ],
+ [
+  "Buffy Summers",
+  "Buffy_Summers"
+ ],
+ [
+  "Gohan",
+  "Gohan"
+ ],
+ [
+  "Andrea",
+  "Andrea_(The_Walking_Dead)"
+ ],
+ [
+  "Guile",
+  "Guile_(Street_Fighter)"
+ ],
+ [
+  "Cammy White",
+  "Cammy"
+ ],
+ [
+  "Montgomery Scott",
+  "Scotty_(Star_Trek)"
+ ],
+ [
+  "Vergil",
+  "Vergil_(Devil_May_Cry)"
+ ],
+ [
+  "Motoko Kusanagi",
+  "Motoko_Kusanagi"
+ ],
+ [
+  "Mother Nature",
+  "Mother_Nature"
+ ],
+ [
+  "The Cowardly Lion",
+  "Cowardly_Lion"
+ ],
+ [
+  "Sakura Haruno",
+  "Sakura_Haruno"
+ ],
+ [
+  "Ken Masters",
+  "Ken_Masters"
+ ],
+ [
+  "Bluto",
+  "Bluto"
+ ],
+ [
+  "Silk Spectre II",
+  "Silk_Spectre"
+ ],
+ [
+  "Edward Kenway",
+  "Edward_Kenway"
+ ],
+ [
+  "Aloy",
+  "Aloy"
+ ],
+ [
+  "Dhalsim",
+  "Dhalsim"
+ ],
+ [
+  "Sokka",
+  "Sokka"
+ ],
+ [
+  "Joseph Joestar",
+  "Joseph_Joestar"
+ ],
+ [
+  "Bowsette",
+  "Bowsette"
+ ],
+ [
+  "Nobara Kugisaki",
+  "Nobara_Kugisaki"
+ ],
+ [
+  "Creeper",
+  "Creeper_(Minecraft)"
+ ],
+ [
+  "Heihachi Mishima",
+  "Heihachi_Mishima"
+ ],
+ [
+  "Boruto Uzumaki",
+  "Boruto_Uzumaki"
+ ],
+ [
+  "Kathryn Janeway",
+  "Kathryn_Janeway"
+ ],
+ [
+  "Veronica Lodge",
+  "Veronica_Lodge"
+ ],
+ [
+  "Revan",
+  "Revan"
+ ],
+ [
+  "Green Hornet",
+  "Green_Hornet"
+ ],
+ [
+  "Big Bad Wolf",
+  "Big_Bad_Wolf"
+ ],
+ [
+  "Gaara",
+  "Gaara"
+ ],
+ [
+  "Handala",
+  "Handala"
+ ],
+ [
+  "R.O.B.",
+  "R.O.B."
+ ],
+ [
+  "Kawaki",
+  "Kawaki"
+ ],
+ [
+  "Bulma",
+  "Bulma"
+ ],
+ [
+  "Arthur Morgan",
+  "Arthur_Morgan"
+ ],
+ [
+  "Aerith Gainsborough",
+  "Aerith_Gainsborough"
+ ],
+ [
+  "Blanka",
+  "Blanka"
+ ],
+ [
+  "Arbiter",
+  "Arbiter_(Halo)"
+ ],
+ [
+  "Betty Cooper",
+  "Betty_Cooper"
+ ],
+ [
+  "Ryuk",
+  "Ryuk_(Death_Note)"
+ ],
+ [
+  "Mikasa Ackerman",
+  "Mikasa_Ackerman"
+ ],
+ [
+  "Daisy Duck",
+  "Daisy_Duck"
+ ],
+ [
+  "Misato Katsuragi",
+  "Misato_Katsuragi"
+ ],
+ [
+  "Beerus",
+  "Beerus"
+ ],
+ [
+  "Oddjob",
+  "Oddjob"
+ ],
+ [
+  "Morrigan Aensland",
+  "Morrigan_Aensland"
+ ],
+ [
+  "Ravonna Renslayer",
+  "Ravonna"
+ ],
+ [
+  "Grandmama",
+  "Grandmama_(The_Addams_Family)"
+ ],
+ [
+  "Sweet Tooth",
+  "Sweet_Tooth_(Twisted_Metal)"
+ ],
+ [
+  "Mamoru Chiba",
+  "Tuxedo_Mask"
+ ],
+ [
+  "Shoto Todoroki",
+  "Shoto_Todoroki"
+ ],
+ [
+  "Charles Xavier",
+  "Charles_Xavier_(film_character)"
+ ],
+ [
+  "Piccolo",
+  "Piccolo_(Dragon_Ball)"
+ ],
+ [
+  "Lori Grimes",
+  "Lori_Grimes"
+ ],
+ [
+  "Teela",
+  "Teela"
+ ],
+ [
+  "Gordon Freeman",
+  "Gordon_Freeman"
+ ],
+ [
+  "Baby Huey",
+  "Baby_Huey"
+ ],
+ [
+  "Mai Shiranui",
+  "Mai_Shiranui"
+ ],
+ [
+  "Koopa Troopa",
+  "Koopa_Troopa"
+ ],
+ [
+  "The Crow",
+  "Crow_(comics)"
+ ],
+ [
+  "Emilia Harcourt",
+  "Emilia_Harcourt"
+ ],
+ [
+  "Osamu Dazai",
+  "Osamu_Dazai_(Bungo_Stray_Dogs)"
+ ],
+ [
+  "Judith Grimes",
+  "Judith_Grimes"
+ ],
+ [
+  "Jax",
+  "Jax_(Mortal_Kombat)"
+ ],
+ [
+  "Saitama",
+  "Saitama_(One-Punch_Man)"
+ ],
+ [
+  "Sailor Uranus",
+  "Sailor_Uranus"
+ ],
+ [
+  "Sora",
+  "Sora_(Kingdom_Hearts)"
+ ],
+ [
+  "Tracy Bond",
+  "Tracy_Bond"
+ ],
+ [
+  "Vega",
+  "Vega_(Street_Fighter)"
+ ],
+ [
+  "Atom Eve",
+  "Atom_Eve"
+ ],
+ [
+  "Goro Majima",
+  "Goro_Majima"
+ ],
+ [
+  "Morty Smith",
+  "Morty_Smith"
+ ],
+ [
+  "Bill Tanner",
+  "Bill_Tanner"
+ ],
+ [
+  "Clementine",
+  "Clementine_(The_Walking_Dead)"
+ ],
+ [
+  "Kaworu Nagisa",
+  "Kaworu_Nagisa"
+ ],
+ [
+  "Venom Snake",
+  "Venom_Snake"
+ ],
+ [
+  "Misty",
+  "Misty_(Pokémon)"
+ ],
+ [
+  "Zack Fair",
+  "Zack_Fair"
+ ],
+ [
+  "Vampirella",
+  "Vampirella"
+ ],
+ [
+  "Smurfette",
+  "Smurfette"
+ ],
+ [
+  "Android 18",
+  "Android_18"
+ ],
+ [
+  "Reptile",
+  "Reptile_(Mortal_Kombat)"
+ ],
+ [
+  "Jonathan Joestar",
+  "Jonathan_Joestar"
+ ],
+ [
+  "Rukia Kuchiki",
+  "Rukia_Kuchiki"
+ ],
+ [
+  "Clarabelle Cow",
+  "Clarabelle_Cow"
+ ],
+ [
+  "Karl Ruprect Kroenen",
+  "Karl_Ruprect_Kroenen"
+ ],
+ [
+  "Dreaming Celestial",
+  "Tiamut"
+ ],
+ [
+  "Vash the Stampede",
+  "Vash_the_Stampede"
+ ],
+ [
+  "Maker",
+  "Maker_(character)"
+ ],
+ [
+  "Desmond Miles",
+  "Desmond_Miles"
+ ],
+ [
+  "Pig-Pen",
+  "Pig-Pen"
+ ],
+ [
+  "Moe Szyslak",
+  "Moe_Szyslak"
+ ],
+ [
+  "Kool-Aid Man",
+  "Kool-Aid_Man"
+ ],
+ [
+  "Trunks",
+  "Trunks_(Dragon_Ball)"
+ ],
+ [
+  "Sarada Uchiha",
+  "Sarada_Uchiha"
+ ],
+ [
+  "Sailor Mars",
+  "Sailor_Mars"
+ ],
+ [
+  "Ozymandias",
+  "Adrian_Veidt"
+ ],
+ [
+  "Zangief",
+  "Zangief"
+ ],
+ [
+  "Lelouch Lamperouge",
+  "Lelouch_Lamperouge"
+ ],
+ [
+  "Chibiusa",
+  "Chibiusa"
+ ],
+ [
+  "Dipper Pines",
+  "Dipper_Pines"
+ ],
+ [
+  "Marsupilami",
+  "Marsupilami"
+ ],
+ [
+  "Sailor Saturn",
+  "Sailor_Saturn"
+ ],
+ [
+  "Obelix",
+  "Obelix"
+ ],
+ [
+  "Denji",
+  "Denji_(Chainsaw_Man)"
+ ],
+ [
+  "Phasma",
+  "Captain_Phasma"
+ ],
+ [
+  "William Afton",
+  "William_Afton"
+ ],
+ [
+  "Super Sonico",
+  "Super_Sonico"
+ ],
+ [
+  "Comedian",
+  "Comedian_(character)"
+ ],
+ [
+  "Sailor Venus",
+  "Sailor_Venus"
+ ],
+ [
+  "Prue Halliwell",
+  "Prue_Halliwell"
+ ],
+ [
+  "Amy Rose",
+  "Amy_Rose"
+ ],
+ [
+  "Bayonetta",
+  "Bayonetta_(character)"
+ ],
+ [
+  "Gabriel Stockes",
+  "Gabriel_Stokes_(The_Walking_Dead)"
+ ],
+ [
+  "Bloodshot",
+  "Bloodshot_(comics)"
+ ],
+ [
+  "Shikamaru Nara",
+  "Shikamaru_Nara"
+ ],
+ [
+  "Quiet",
+  "Quiet_(Metal_Gear)"
+ ],
+ [
+  "Carmen Sandiego",
+  "Carmen_Sandiego_(character)"
+ ],
+ [
+  "J. Wellington Wimpy",
+  "J._Wellington_Wimpy"
+ ],
+ [
+  "Sam Fisher",
+  "Sam_Fisher_(Splinter_Cell)"
+ ],
+ [
+  "Haytham Kenway",
+  "Haytham_Kenway"
+ ],
+ [
+  "Mr. Popo",
+  "Mr._Popo"
+ ],
+ [
+  "Krillin",
+  "Krillin"
+ ],
+ [
+  "Rupert Giles",
+  "Rupert_Giles"
+ ],
+ [
+  "Phantom",
+  "Phantom_(character)"
+ ],
+ [
+  "Sailor Jupiter",
+  "Sailor_Jupiter"
+ ],
+ [
+  "Balrog",
+  "Balrog_(Street_Fighter)"
+ ],
+ [
+  "Revolver Ocelot",
+  "Revolver_Ocelot"
+ ],
+ [
+  "Savage Dragon",
+  "Savage_Dragon"
+ ],
+ [
+  "Kirito",
+  "Kirito_(Sword_Art_Online)"
+ ],
+ [
+  "Zamasu",
+  "Zamasu"
+ ],
+ [
+  "Captain Haddock",
+  "Captain_Haddock"
+ ],
+ [
+  "Lucy van Pelt",
+  "Lucy_Van_Pelt"
+ ],
+ [
+  "Vault Boy",
+  "Vault_Boy"
+ ],
+ [
+  "Lydia",
+  "Lydia_(The_Walking_Dead)"
+ ],
+ [
+  "Jon Arbuckle",
+  "Jon_Arbuckle"
+ ],
+ [
+  "Wedge Antilles",
+  "Wedge_Antilles"
+ ],
+ [
+  "Bardock",
+  "Bardock"
+ ],
+ [
+  "Paul \"Jesus\" Monroe",
+  "Paul_\"Jesus\"_Monroe"
+ ],
+ [
+  "Sailor Mercury",
+  "Sailor_Mercury"
+ ],
+ [
+  "Frieren",
+  "Frieren_(character)"
+ ],
+ [
+  "King Ezekiel",
+  "King_Ezekiel"
+ ],
+ [
+  "Huey Freeman",
+  "Huey_Freeman"
+ ],
+ [
+  "Kaa",
+  "Kaa"
+ ],
+ [
+  "Dogmeat",
+  "Dogmeat_(Fallout)"
+ ],
+ [
+  "Maki Zen'in",
+  "Maki_Zen'in"
+ ],
+ [
+  "Fido Dido",
+  "Fido_Dido"
+ ],
+ [
+  "Asta",
+  "Asta_(Black_Clover)"
+ ],
+ [
+  "Jiren",
+  "Jiren_(Dragon_Ball)"
+ ],
+ [
+  "Linus van Pelt",
+  "Linus_Van_Pelt"
+ ],
+ [
+  "Mandrake the Magician",
+  "Mandrake_the_Magician"
+ ],
+ [
+  "William \"B.J.\" Blazkowicz",
+  "B.J._Blazkowicz"
+ ],
+ [
+  "Altaïr Ibn-La'Ahad",
+  "Altaïr_Ibn-LaʼAhad"
+ ],
+ [
+  "Crash Bandicoot",
+  "Crash_Bandicoot_(character)"
+ ],
+ [
+  "Cheryl Blossom",
+  "Cheryl_Blossom"
+ ],
+ [
+  "Abe Sapien",
+  "Abe_Sapien"
+ ],
+ [
+  "King",
+  "King_(Tekken)"
+ ],
+ [
+  "Orihime Inoue",
+  "Orihime_Inoue"
+ ],
+ [
+  "John \"Soap\" MacTavish",
+  "Soap_MacTavish"
+ ],
+ [
+  "Lex Lutor",
+  "Lex_Luthor_(Smallville)"
+ ],
+ [
+  "Admiral Ackbar",
+  "Admiral_Ackbar"
+ ],
+ [
+  "Dory",
+  "Dory_(Finding_Nemo)"
+ ],
+ [
+  "Supreme",
+  "Supreme_(character)"
+ ],
+ [
+  "Schroeder",
+  "Schroeder_(Peanuts)"
+ ],
+ [
+  "Ming the Merciless",
+  "Ming_the_Merciless"
+ ],
+ [
+  "Enid",
+  "Enid_(The_Walking_Dead)"
+ ],
+ [
+  "Papa Smurf",
+  "Papa_Smurf"
+ ],
+ [
+  "Quan Chi",
+  "Quan_Chi"
+ ],
+ [
+  "Dan Hibiki",
+  "Dan_Hibiki"
+ ],
+ [
+  "Baraka",
+  "Baraka_(Mortal_Kombat)"
+ ],
+ [
+  "Cosmic Ghost Rider",
+  "Cosmic_Ghost_Rider"
+ ],
+ [
+  "Rock Lee",
+  "Rock_Lee"
+ ],
+ [
+  "Pac-Man",
+  "Pac-Man_(character)"
+ ],
+ [
+  "Liquid Snake",
+  "Liquid_Snake"
+ ],
+ [
+  "Salem Saberhagen",
+  "Salem_Saberhagen"
+ ],
+ [
+  "Ultimate Spider-Man",
+  "Spider-Man_(Ultimate_Marvel_character)"
+ ],
+ [
+  "Master Roshi",
+  "Master_Roshi"
+ ],
+ [
+  "Junko Enoshima",
+  "Junko_Enoshima"
+ ],
+ [
+  "Lady Death",
+  "Lady_Death"
+ ],
+ [
+  "Char Aznable",
+  "Char_Aznable"
+ ],
+ [
+  "Heather Mason",
+  "Heather_Mason"
+ ],
+ [
+  "Sailor Neptune",
+  "Sailor_Neptune"
+ ],
+ [
+  "Mabel Pines",
+  "Mabel_Pines"
+ ],
+ [
+  "Ermac",
+  "Ermac"
+ ],
+ [
+  "Thorfinn",
+  "Thorfinn_(Vinland_Saga)"
+ ],
+ [
+  "Fox McCloud",
+  "Fox_McCloud"
+ ],
+ [
+  "Rudeus Greyrat",
+  "Rudeus_Greyrat"
+ ],
+ [
+  "Phantom Rider",
+  "Phantom_Rider"
+ ],
+ [
+  "Aaron",
+  "Aaron_(The_Walking_Dead)"
+ ],
+ [
+  "Yuno Gasai",
+  "Yuno_Gasai"
+ ],
+ [
+  "Tenzin",
+  "Tenzin_(The_Legend_of_Korra)"
+ ],
+ [
+  "Oliver \"Daddy\" Warbucks",
+  "Daddy_Warbucks"
+ ],
+ [
+  "Phoenix Wright",
+  "Phoenix_Wright"
+ ],
+ [
+  "Chiitan",
+  "Chiitan"
+ ],
+ [
+  "Boo-Boo Bear",
+  "Boo-Boo_Bear"
+ ],
+ [
+  "Kenshiro",
+  "Kenshiro"
+ ],
+ [
+  "Kenpachi Zaraki",
+  "Kenpachi_Zaraki"
+ ],
+ [
+  "Andrea Beaumont",
+  "Andrea_Beaumont"
+ ],
+ [
+  "Yugi Mutou",
+  "Yugi_Mutou"
+ ],
+ [
+  "Clíodhna",
+  "Clíodhna"
+ ],
+ [
+  "Megumin",
+  "Megumin"
+ ],
+ [
+  "Chi-Chi",
+  "Chi-Chi_(Dragon_Ball)"
+ ],
+ [
+  "Asuna Yūki",
+  "Asuna_(Sword_Art_Online)"
+ ],
+ [
+  "Diabolik",
+  "Diabolik"
+ ],
+ [
+  "Violator",
+  "Violator_(comics)"
+ ],
+ [
+  "Brock",
+  "Brock_(Pokémon)"
+ ],
+ [
+  "Kenshi",
+  "Kenshi_(Mortal_Kombat)"
+ ],
+ [
+  "Mega Man",
+  "Mega_Man_(character)"
+ ],
+ [
+  "Wheatley",
+  "Wheatley_(Portal)"
+ ],
+ [
+  "Dwight",
+  "Dwight_(The_Walking_Dead)"
+ ],
+ [
+  "Makima",
+  "Makima"
+ ],
+ [
+  "Mitsuki",
+  "Mitsuki_(Naruto)"
+ ],
+ [
+  "Paige Matthews",
+  "Paige_Matthews"
+ ],
+ [
+  "E. Honda",
+  "E._Honda"
  ]
 ]

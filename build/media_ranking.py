@@ -23,17 +23,21 @@ logger = logging.getLogger(__name__)
 
 USER_AGENT = "character-db/1.0 (wilkojc@gmail.com)"
 SPARQL_URL = "https://query.wikidata.org/sparql"
-SPARQL_RETRY_BACKOFFS = [5, 15, 30]  # seconds; WDQS times out under load but usually succeeds on retry (cached)
+SPARQL_RETRY_BACKOFFS = [5, 15, 30, 60, 120]  # seconds; WDQS is flaky under load (502/truncated JSON) for windows longer than a few short retries, so ride it out
 
-# Character classes for the "Popular Media" bucket: screen + game media.
-# manga character (Q87576284) is deliberately excluded (comic-only); anime
-# characters are retained via Q80447738.
+# Character classes for the "Popular Media" bucket: game + anime + comics.
+# television character (Q15773317) and film character (Q15773347) are excluded
+# as too wide (many unrecognisable movie/TV-only characters).
 MEDIA_CLASSES = [
     "Q1569167",   # video game character
-    "Q15773317",  # television character
-    "Q15773347",  # film character
     "Q80447738",  # anime character
+    "Q1114461",   # comics character
 ]
+
+# Names already covered by the dedicated Marvel/DC rosters are dropped from this
+# bucket so the same character (Batman, Bane, Apocalypse, ...) is not listed
+# twice. Matched case-insensitively on the display name.
+EXCLUDE_ROSTERS = ["cache/marvel.json", "cache/dc.json"]
 
 # Enumerate characters of one class that have an English Wikipedia article.
 # Queried per class (a union over all classes times out).
@@ -119,8 +123,25 @@ def gather_candidates():
         logger.info(f"Class {cls}: {len(found)} candidates")
         for name, title in found.items():
             merged.setdefault(name, title)
-    logger.info(f"Merged candidates (deduped by name): {len(merged)}")
-    return list(merged.items())
+
+    excluded = load_excluded_names()
+    filtered = {n: t for n, t in merged.items() if n.lower() not in excluded}
+    logger.info(
+        f"Merged candidates: {len(merged)}; after Marvel/DC exclusion: {len(filtered)}"
+    )
+    return list(filtered.items())
+
+
+def load_excluded_names():
+    """Lowercased names already in the Marvel/DC rosters, to skip in this bucket."""
+    excluded = set()
+    for path in EXCLUDE_ROSTERS:
+        try:
+            with open(path, encoding="utf-8") as f:
+                excluded.update(name.lower() for name in json.load(f))
+        except FileNotFoundError:
+            logger.warning(f"Exclusion roster {path} not found; skipping it")
+    return excluded
 
 
 def select_top(scored, n):
