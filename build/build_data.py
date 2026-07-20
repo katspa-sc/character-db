@@ -16,6 +16,7 @@ import hashlib
 import io
 import json
 import os
+import time
 
 import requests
 from PIL import Image
@@ -83,6 +84,13 @@ FANDOMS = [
         "cache/dc.json",
         RankedListParser("https://dc.fandom.com/api.php"), "dc", "DC",
     ),
+    # Cross-franchise roster ranked by Wikipedia pageviews (media_ranking.py).
+    # Entries are [name, enwiki_title] pairs resolved to images off en.wikipedia.
+    (
+        "cache/popular.json",
+        RankedListParser("https://en.wikipedia.org/w/api.php", top_n=500),
+        "popular", "Popular Media",
+    ),
 ]
 
 # Manual image overrides for pages where the wiki's auto-selected image is wrong
@@ -116,8 +124,21 @@ def make_thumbnail(image_bytes):
 
 def save_thumbnail(image_url, h):
     """Download image_url and write its 400px webp thumbnail as {h}.webp."""
+    # upload.wikimedia.org (Popular Media images) 403s requests without a
+    # descriptive User-Agent and 429s rapid bursts; Fandom's CDN does neither.
+    headers = {"User-Agent": "character-db/1.0 (wilkojc@gmail.com)"}
     try:
-        resp = requests.get(image_url, timeout=30)
+        for attempt in range(5):
+            resp = requests.get(image_url, headers=headers, timeout=30)
+            if resp.status_code == 429 and attempt < 4:
+                retry_after = resp.headers.get("Retry-After")
+                try:
+                    wait = float(retry_after) if retry_after else 2 ** attempt
+                except ValueError:
+                    wait = 2 ** attempt
+                time.sleep(min(wait, 60))
+                continue
+            break
         resp.raise_for_status()
         thumb = make_thumbnail(resp.content)
     except Exception as exc:
