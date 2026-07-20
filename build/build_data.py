@@ -88,7 +88,7 @@ FANDOMS = [
     # Entries are [name, enwiki_title] pairs resolved to images off en.wikipedia.
     (
         "cache/popular.json",
-        RankedListParser("https://en.wikipedia.org/w/api.php", top_n=500),
+        RankedListParser("https://en.wikipedia.org/w/api.php", top_n=1000),
         "popular", "Popular Media",
     ),
 ]

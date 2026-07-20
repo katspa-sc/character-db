@@ -49,7 +49,7 @@ SELECT DISTINCT ?itemLabel ?article WHERE {{
 }}
 """
 
-TOP_N = 500
+TOP_N = 1000
 MAX_FAILURE_RATIO = 0.05  # abort writing the cache above this unknown-fetch rate
 MAX_WORKERS = 4
 
